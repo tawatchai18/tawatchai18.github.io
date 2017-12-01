@@ -1,0 +1,175 @@
+h1 {
+  color:  $brand-primary;
+}
+.text-big{
+  font-size: 400%;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+.intro-header {
+
+    background-repeat: no-repeat, repeat;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+div {
+    display: block;
+}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-inverse {
+      padding: 6px 0;
+      background-color: #777;
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 14px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+}
+
+
+
+.content-section-a {
+    padding: 90px 0;
+}
+
+.trb-survey-bg {
+    background-position: left bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;
+}
+
+
+
+.trb-report-bg {
+    background-size: 100%;
+    background-color: #FFFFFF;
+}
+
+.trb-showe-bg {
+    background-color: #F5F5F5;
+}
+
+.trb-video-bg {
+    background-color: #000000;
+}
+
+.trb-contact-bg {
+    background-color: #ffff99;
+}
+
+td[Attributes Style] {
+    width: 244px;
+    height: 186px;
+    vertical-align: top;
+}
+
+user agent stylesheet td,
+th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.centers {
+    padding: 200px 0;
+    text-align: center;
+}
+.news-center{
+    padding: 30px 0;
+    text-align: center;
+}
+.column-colspan-1{
+  padding: 30px 0;
+  text-align: left;
+}
+.center {
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+section.featured {
+    background: #f5f5f5;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.sansserif {
+    font-family:  sans-serif;
+    font-size: 34;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+.news-img{
+  max-height: 200px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.news-padding{
+  padding: 5px;
+
+}
+.news1-padding{
+  padding: 2px;
+
+}
+.news-content{
+  height: 200px;
+}
+.news1-content{
+  height: 100px;
+}
+.news-bg{
+  background-color: #EEEEEE;
+}
+
+a:link {
+    text-decoration: none;
+}
+.newsh-padding{
+  padding: 10px;
+
+}
+.newsh-content{
+  height: 250px;
+  width: auto;
+}
+.file{
+  padding: 90px;
+}
+.footer {
+    text-align: center;
+}
+
+.footer {
+
+    background-color: #777;
+    color: #ffffff;
+    padding: 32px 0;
+    font-size: 14px;
+}
+body {
+    padding-top: 70px;
+  }
