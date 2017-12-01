@@ -1,10 +1,11 @@
 ---
 title: Community public health goes online
-date: 2011-08-02 
+date: 2011-08-02
 description: The FFC program greatly helps public health officials collect and analyse information about member patients of each household faster, more efficiently, and accurately.
 author: me
 image: new6.jpg
 layout: ffc-layouts
+categories: new
 ---
 # Community public health goes online
 
