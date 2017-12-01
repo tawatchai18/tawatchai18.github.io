@@ -7,13 +7,14 @@ layout: ffc-layouts
 <div class="row">
 
     {% for post in site.posts %}
+      {% if post.categories == "new" %}
     <div class="col-md-4 news-padding">
 
             <div class="news-bg">
               <a href="{{ post.url }}.html">
                 <img class="news-img" src="img/news/{{ post.image }}" alt="FFC.com">
                     <div class="news1-content news1-padding">
-                    
+
                     <h4>{{ post.title }}</h4>
                   </div>
                   </a>
@@ -24,5 +25,6 @@ layout: ffc-layouts
             </div>
 
     </div>
+      {% endif %}
     {% endfor %}
 </div>
