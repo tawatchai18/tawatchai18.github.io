@@ -40,6 +40,17 @@ div {
       letter-spacing: 4px;
       opacity: 0.9;
 }
+li#my_nav {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+li#my_nav:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.3);
+}
 
 
 
