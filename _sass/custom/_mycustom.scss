@@ -1,6 +1,13 @@
 h1 {
   color:  $brand-primary;
 }
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+}
 .text-big{
   font-size: 400%;
 }
