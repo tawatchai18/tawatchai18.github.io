@@ -1,0 +1,29 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>เรื่องราวของพวกเรากำลังดำเนินต่อไป</h1>
+          <p>อ่านบทความดีๆของ FFC กันเลย</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="posts" class="container">
+  {% for post in site.posts %}
+  <article class="post-area">
+    <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+    <p class="post-date">{{ post.date | date_to_long_string }}</p>
+    <p>
+      {{ post.content | strip_html | truncatewords: 50 }}
+    </p>
+  </article>
+  {% endfor %}
+</section>
