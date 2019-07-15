@@ -1,5 +1,5 @@
 language: ruby
-rvm: 2.3.1
+rvm: 2.6.3
 jdk: oraclejdk8
 
 install:
@@ -7,7 +7,7 @@ install:
    - gem --version
    - bundle install
 script:
-  - jekyll build
+  - bundle exec jekyll build
   - htmlproofer --url-ignore "/#.*/,/^\/index$/,/www\.it24hrs\.com/,/ffc\.in\.th/,/^\/news$/" ./_site --check-html
 env:
   global:
