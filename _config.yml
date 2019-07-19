@@ -14,9 +14,9 @@ keep_files:
 
 
 # Site settings
-title: FAARMis
-subtitle: "เครื่องมือขึ้นทะเบียนเกษตรกรที่ดีที่สุด"
-url: "http://faarmis.in.th" # the base hostname & protocol for your site
+title: FFC+
+subtitle: "เครื่องมือบันทึกสุขภาพครอบครัวที่ดีที่สุด"
+url: "https://ffc.in.th" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
 cover: "/assets/cover.png"
