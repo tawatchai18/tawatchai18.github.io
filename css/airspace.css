@@ -41,7 +41,7 @@ p {
 ul {
   padding-left: 20px;
   margin: 0;
-  list-style: disc;
+  list-style: none;
 }
 a,
 a:active,
