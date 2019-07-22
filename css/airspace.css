@@ -123,13 +123,13 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block h1 {
   font-family: 'Kanit', sans-serif;
   font-weight: 100;
-  font-size: 45px;
+  font-size: 55px;
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
 }
 #slider .block p {
-  font-size: 23px;
+  font-size: 30px;
   line-height: 40px;
   font-family: 'Kanit', sans-serif;
   font-weight: 300;
