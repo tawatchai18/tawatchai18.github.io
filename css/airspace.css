@@ -9,12 +9,13 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url(https://fonts.googleapis.com/css?family=Kanit:100,300,400,500,700&display=swap);
 /* var text-decoration */
 /*--
 	Common Css
 --*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Kanit', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -23,10 +24,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Kanit', sans-serif;
 }
 h2 {
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 28px;
   font-weight: 400;
 }
 h3 {
@@ -34,13 +36,13 @@ h3 {
   font-weight: 300;
 }
 p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 28px;
 }
 ul {
   padding-left: 20px;
   margin: 0;
-  list-style: disc;
+  list-style: none;
 }
 a,
 a:active,
@@ -57,7 +59,7 @@ a:active {
   font-weight: 600;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
+  font-family: 'Kanit', serif;
   font-style: italic;
   color: #666;
 }
@@ -120,17 +122,17 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #E3E3E4;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-weight: 100;
-  font-size: 45px;
+  font-size: 55px;
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
 }
 #slider .block p {
-  font-size: 23px;
+  font-size: 28px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
 }
@@ -151,7 +153,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #intro .block img {
   padding-left: 40px;
-  width: 100%;
+  width: 75%;
 }
 #intro .section-title {
   margin-bottom: 0px;
@@ -189,13 +191,21 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("../img/c.all-to-action-bg.jpg") no-repeat;
+  /* background: url("../img/c.all-to-action-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
   position: relative;
   text-align: center;
+  color: #fff; */
+  background: url("../img/123.png") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 10% 0%;
+  text-align: center;
+  padding: 70px 0px;
   color: #fff;
+  position: relative;
 }
 #call-to-action:before {
   content: "";
@@ -231,7 +241,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/handtel.png");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -358,7 +368,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/123.png") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -431,7 +441,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .portfolio-menu ul .active:before {
   content: "\f0d7";
   position: absolute;
-  font-family: 'FontAwesome';
+  font-family: 'Kanit';
   bottom: -18px;
   font-size: 30px;
   width: 20px;
@@ -450,7 +460,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .portfolio-menu ul li:hover:before {
   content: "\f0d7";
   position: absolute;
-  font-family: 'FontAwesome';
+  font-family: 'Kanit';
   bottom: -18px;
   font-size: 30px;
   width: 20px;
@@ -631,7 +641,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-left: 90px;
 }
 #slider-contact .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -641,7 +651,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider-contact .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
@@ -681,7 +691,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #47424C;
   border: none;
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-size: 18px;
 }
 /*--
@@ -726,7 +736,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
 }
 #contact-box .block h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-weight: 300;
   color: #000;
   font-size: 28px;
