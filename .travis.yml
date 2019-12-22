@@ -1,6 +1,6 @@
 language: ruby
 rvm: 2.3.1
-jdk: oraclejdk8
+jdk: openjdk8
 
 install:
    - gem update --system
