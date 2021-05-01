@@ -70,7 +70,7 @@
                 <li><a href="https://ffc.in.th/console/">Dashboard</a></li>
                 <li><a href="https://ffc.in.th/console/#/system/login">Map</a></li>
                 <li><a href="{{ site.baseurl }}/Use">How to Use</a></li>
-                <li><a onclick="myBtn">Download</a></li>
+                <li><a onclick="myFunction()">Download</a></li>
                 <!-- <li><a href="https://download.ffc.in.th" >Download</a></li> -->
                 <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
                 <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
@@ -84,17 +84,18 @@
   </div>
 </header><!-- header close -->
 <!-- The Modal -->
-<div id="myModal" class="modal">
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <!-- <span class="close">&times;</span> -->
-    <h>นโยบายความเป็นส่วนตัว</h>
-  </div>
-
-</div>
 
 <script>
+  function myFunction() {
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+  <span class="close">&times;</span>
+    <h>นโยบายความเป็นส่วนตัว</h>
+  </div>
+</div>
+}
 // Get the modal
 var modal = document.getElementById("myModal");
 
