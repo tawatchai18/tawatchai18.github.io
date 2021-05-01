@@ -25,7 +25,8 @@
                 <li><a href="https://ffc.in.th/console/">Dashboard</a></li>
                 <li><a href="https://ffc.in.th/console/#/system/login">Map</a></li>
                 <li><a href="{{ site.baseurl }}/Use">How to Use</a></li>
-                <li><a href="https://download.ffc.in.th">Download</a></li>
+                <li onclick="openForm()">Download</li>
+                <!-- <li><a href="https://download.ffc.in.th" >Download</a></li> -->
                 <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
                 <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
                 <!-- <li><a href="https://www.facebook.com/FFC.NECTEC/" target="_blank"><i class="fa fa-facebook"></i></a></li> -->
@@ -36,4 +37,30 @@
       </div>
     </div>
   </div>
+  
+  <div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+      <h1>Login</h1>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <button type="submit" class="btn">Login</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+  
+  <script>
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+  </script>
+
 </header><!-- header close -->
