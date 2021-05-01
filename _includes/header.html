@@ -174,13 +174,18 @@
       </li>
       <div>
         <center>
-          <button><a href="https://download.ffc.in.th" >ยอมรับ</a></button>&nbsp;&nbsp;<button class="closed">ไม่ยอมรับ</button>
+          <!-- <button><a href="https://download.ffc.in.th" >ยอมรับ</a></button>&nbsp;&nbsp;<button class="closed">ไม่ยอมรับ</button> -->
+          <button onclick="myFunction()">ยอมรับ</button>&nbsp;&nbsp;<button class="closed">ไม่ยอมรับ</button>
         </center>
       </div>
   </div>
 </div>
 
 <script>
+function myFunction() {
+  alert("ท่านยอมรับตามเงื่อนไขหรือไม่");
+}
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
